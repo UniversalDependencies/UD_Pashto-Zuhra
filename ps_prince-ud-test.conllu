@@ -1,0 +1,658 @@
+# sent_id = petitprince-1
+# text = یو ځل ، چې زه لا د شپږو کالو وم ، ما په یو کتاب کښې یو زبردست تصویر ولیدو ، کوم چې په نوم وو ، دا د پخوانی ځنګلونو په بارہ کښي يو کتاب وو
+# rtl = yes
+1	یو	یو	NUM	_	NumType=Card	2	nummod	_	_
+2	ځل	ځل	NOUN	_	Number=Sing	20	obl	_	_
+3	،	,	PUNCT	_	_	9	punct	_	_
+4	چې	_	SCONJ	_	_	9	mark	_	_
+5	زه	_	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+6	لا	_	ADV	_	_	9	advmod	_	_
+7	د	_	ADP	_	_	9	case	_	_
+8	شپږو	شپږ	NUM	_	NumType=Card	9	nummod	_	_
+9	کالو	کال	NOUN	_	Number=Plur	20	advcl	_	_
+10	وم	ول	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	cop	_	_
+11	،	,	PUNCT	_	_	9	punct	_	_
+12	ما	زه	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+13	په	_	ADP	_	_	15	case	_	_
+14	یو	_	NUM	_	NumType=Card	15	nummod	_	_
+15	کتاب	_	NOUN	_	Number=Sing	20	obl	_	_
+16	کښې	_	ADP	_	_	15	case	_	_
+17	یو	_	NUM	_	NumType=Card	19	nummod	_	_
+18	زبردست	_	ADJ	_	_	19	amod	_	_
+19	تصویر	_	NOUN	_	Number=Sing	20	obj	_	_
+20	ولیدو	لیدل	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+21	،	,	PUNCT	_	_	20	punct	_	_
+22	کوم	_	PRON	_	Number=Sing|PronType=Rel	26	nsubj	_	_
+23	چې	_	SCONJ	_	_	26	mark	_	_
+24	په	_	ADP	_	_	25	case	_	_
+25	نوم	_	NOUN	_	Number=Sing	26	obl	_	_
+26	وو	ول	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	acl	_	_
+27	،	,	PUNCT	_	_	28	punct	_	_
+28	دا	_	PRON	_	Deixis=Prox|Number=Sing|PronType=Dem	30	det	_	_
+29	د	_	ADP	_	_	31	case	_	_
+30	پخوانی	_	ADJ	_	_	31	amod	_	_
+31	ځنګلونو	ځنګل	NOUN	_	Number=Plur	33	nmod	_	_
+32	په	_	ADP	_	_	33	case	_	_
+33	بارہ	_	NOUN	_	Number=Sing	36	nmod	_	_
+34	کښي	_	ADP	_	_	33	case	_	_
+35	يو	_	DET	_	PronType=Ind	36	det	_	_
+36	کتاب	_	NOUN	_	Number=Sing	37	nsubj	_	_
+37	وو	ول	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	parataxis	_	_
+
+# sent_id = petitprince-2
+# text = . په هغه تصویر کښې یو لوی مار بوا کنسټرېکټر ښودلې شوې وو ، چې یو ځناور یې په خولې کښې نيولې وو
+# rtl = yes
+1	.	.	PUNCT	_	_	11	punct	_	_
+2	په	_	ADP	_	_	4	case	_	_
+3	هغه	_	DET	_	Deixis=Remt|Number=Sing|PronType=Dem	4	det	_	_
+4	تصویر	_	NOUN	_	Number=Sing	11	obl	_	_
+5	کښې	_	ADP	_	_	4	case	_	_
+6	یو	_	NUM	_	NumType=Card	8	nummod	_	_
+7	لوی	_	ADJ	_	_	8	amod	_	_
+8	مار	_	NOUN	_	Number=Sing	11	nsubj	_	_
+9	بوا	_	NOUN	_	Number=Sing	10	compound	_	_
+10	کنسټرېکټر	_	NOUN	_	Number=Sing	8	compound	_	_
+11	ښودلې	_	VERB	_	VerbForm=Part	0	root	_	_
+12	شوې	کېدل	VERB	_	Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	11	xcomp	_	_
+13	وو	ول	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+14	،	,	PUNCT	_	_	11	punct	_	_
+15	چې	_	SCONJ	_	_	22	mark	_	_
+16	یو	_	NUM	_	NumType=Card	17	nummod	_	_
+17	ځناور	_	NOUN	_	Number=Sing	22	obj	_	_
+18	یې	هغه	PRON	_	Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+19	په	_	ADP	_	_	20	case	_	_
+20	خولې	خوله	NOUN	_	Number=Sing	22	obl	_	_
+21	کښې	_	ADP	_	_	20	case	_	_
+22	نيولې	نیول	VERB	_	Aspect=Perf|VerbForm=Part	8	acl	_	_
+23	وو	ول	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	_
+
+# sent_id = petitprince-3
+# text = . دا دلته مې هم د هغې رسم شوې تصوير ستاسو لپاره لگولې دې
+# rtl = yes
+1	.	.	PUNCT	_	_	13	punct	_	_
+2	دا	دا	PRON	_	Deixis=Prox|Number=Sing|PronType=Dem	10	det	_	_
+3	دلته	دلته	ADV	_	_	13	advmod	_	_
+4	مې	مې	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nmod	_	_
+5	هم	هم	ADV	_	_	13	advmod	_	_
+6	د	د	ADP	_	_	7	case	_	_
+7	هغې	هغې	PRON	_	Deixis=Remt|Number=Sing|Poss=Yes|PronType=Dem	8	det:poss	_	_
+8	رسم	رسم	NOUN	_	Number=Sing	10	nmod	_	_
+9	شوې	شوې	VERB	_	VerbForm=Part	8	acl	_	_
+10	تصوير	تصوير	NOUN	_	Number=Sing	13	obj	_	_
+11	ستاسو	تاسو	PRON	_	Number=Plur|Person=2|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	لپاره	لپاره	ADP	_	_	13	obl	_	_
+13	لگولې	لګول	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+14	دې	ول	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+
+# sent_id = petitprince-4
+# text = په کتاب کښې يي لیکلي وو , بوآ کنسټرېکټرخپل ښکار بې لهسه شخوند وهلو لواړ د مرۍ نه تيروي
+# rtl = yes
+1	په	_	ADP	_	_	2	case	_	_
+2	کتاب	_	NOUN	_	Number=Sing	5	obl	_	_
+3	کښې	_	ADP	_	_	2	case	_	_
+4	يي	هغه	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	لیکلي	لیکل	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+6	وو	ول	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+7	,	,	PUNCT	_	_	5	punct	_	_
+8	بوآ	_	NOUN	_	Number=Sing	9	compound	_	_
+9	کنسټرېکټرخپل	_	NOUN	_	Number=Sing	19	nsubj	_	_
+10	ښکار	_	NOUN	_	Number=Sing	15	nmod	_	_
+11	بې	_	ADP	_	_	14	case	_	_
+12	لهسه	لهسه	SCONJ	_	_	14	mark	_	_
+13	شخوند	_	NOUN	_	Number=Sing	14	obj	_	_
+14	وهلو	_	NOUN	_	Number=Sing	15	nmod	_	_
+15	لواړ	_	VERB	_	VerbForm=Part	19	obj	_	_
+16	د	_	ADP	_	_	17	case	_	_
+17	مرۍ	_	NOUN	_	Number=Sing	19	obl	_	_
+18	نه	_	PART	_	_	17	case	_	_
+19	تيروي	تېرول	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+
+# sent_id = petitprince-5
+# text = . او بیا دا مار دومره لټ شي چې شپږ میاشتې خوب کوي ، تر څو چي دا خوراک يي هضم شي
+# rtl = yes
+1	.	.	PUNCT	_	_	13	punct	_	_
+2	او	او	CCONJ	_	_	8	discourse	_	_
+3	بیا	بیا	ADV	_	_	8	advmod	_	_
+4	دا	دا	PRON	_	Deixis=Prox|Number=Sing|PronType=Dem	5	det	_	_
+5	مار	مار	NOUN	_	Number=Sing	13	nsubj	_	_
+6	دومره	دومره	ADV	_	_	7	advmod	_	_
+7	لټ	لټ	ADJ	_	_	8	xcomp	_	_
+8	شي	کېدل	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+9	چې	چې	SCONJ	_	_	13	mark	_	_
+10	شپږ	شپږ	NUM	_	NumType=Card	11	nummod	_	_
+11	میاشتې	میاشت	NOUN	_	Number=Plur	13	obl	_	_
+12	خوب	خوب	NOUN	_	Number=Sing	13	compound:lvc	_	_
+13	کوي	کول	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	،	،	PUNCT	_	_	13	punct	_	_
+15	تر	تر	SCONJ	_	ExtPos=SCONJ	21	mark	_	_
+16	څو	څو	DET	_	PronType=Rel	15	fixed	_	_
+17	چي	چي	SCONJ	_	_	15	fixed	_	_
+18	دا	دا	PRON	_	Deixis=Prox|Number=Sing|PronType=Dem	19	det	_	_
+19	خوراک	خوراک	NOUN	_	Number=Sing	21	nsubj	_	_
+20	يي	هغه	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
+21	هضم	هضم	VERB	_	VerbForm=Inf	13	xcomp	_	_
+22	شي	کېدل	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+
+# sent_id = petitprince-6
+# text = ما هغه وخ ډير ژور سوچ وکړو ، په ځنګل کښي د گرځيدو په باره کښي .
+# rtl = yes
+1	ما	زه	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	هغه	هغه	DET	_	Deixis=Remt|Number=Sing|PronType=Dem	3	det	_	_
+3	وخ	وخت	NOUN	_	Number=Sing	7	obl	_	_
+4	ډير	ډير	ADV	_	_	6	advmod	_	_
+5	ژور	ژور	ADJ	_	_	6	amod	_	_
+6	سوچ	سوچ	NOUN	_	Number=Sing	7	obj	_	_
+7	وکړو	کول	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+8	،	,	PUNCT	_	_	7	punct	_	_
+9	په	په	ADP	_	_	10	case	_	_
+10	ځنګل	ځنګل	NOUN	_	Number=Sing	15	nmod	_	_
+11	کښي	کښي	ADP	_	_	10	case	_	_
+12	د	د	ADP	_	_	10	case	_	_
+13	گرځيدو	گرځېدل	ADP	_	_	15	case	_	_
+14	په	په	ADP	_	_	15	case	_	_
+15	باره	باره	NOUN	_	Number=Sing	7	obl	_	_
+16	کښي	کښي	ADP	_	_	15	case	_	_
+17	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = petitprince-7
+# text = . او بیا ما په رنګین پنسلونو خپل اولنئ تصویر روغ کړو
+# rtl = yes
+1	.	.	PUNCT	_	_	12	punct	_	_
+2	او	او	CCONJ	_	_	12	discourse	_	_
+3	بیا	بیا	ADV	_	_	12	advmod	_	_
+4	ما	زه	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+5	په	په	ADP	_	_	7	case	_	_
+6	رنګین	رنګین	ADJ	_	_	7	amod	_	_
+7	پنسلونو	پنسل	NOUN	_	Number=Plur	12	obl	_	_
+8	خپل	خپل	DET	_	Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	10	det:poss	_	_
+9	اولنئ	اولنئ	ADJ	_	_	10	amod	_	_
+10	تصویر	تصویر	NOUN	_	Number=Sing	12	obj	_	_
+11	روغ	روغ	NOUN	_	Number=Sing	12	xcomp	_	_
+12	کړو	کول	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+
+# sent_id = petitprince-8
+# text = . دا زما وړومبنۍ تصویر وو
+# rtl = yes
+1	.	.	PUNCT	_	_	5	punct	_	_
+2	دا	دا	PRON	_	Deixis=Prox|Number=Sing|PronType=Dem	5	det	_	_
+3	زما	زه	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+4	وړومبنۍ	وړومبنۍ	ADJ	_	_	5	amod	_	_
+5	تصویر	تصویر	NOUN	_	Number=Sing	0	root	_	_
+6	وو	ول	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+
+# sent_id = petitprince-9
+# text = . بس هوم سه داسې ښکارېدو
+# rtl = yes
+1	.	.	PUNCT	_	_	6	punct	_	_
+2	بس	بس	ADV	_	ExtPos=ADV	6	discourse	_	_
+3	هوم	هم	ADV	_	_	2	fixed	_	_
+4	سه	سه	PRON	_	Number=Sing|PronType=Prs	2	fixed	_	_
+5	داسې	داسې	DET	_	PronType=Dem	6	obl	_	_
+6	ښکارېدو	ښکارېدل	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+
+# sent_id = petitprince-10
+# text = ما خپل دا شاهکار رسم مشرانو ته وښودلو ، او ترې مې تپوس وکړو چې آیا دا تصویرخلک ويرولۍ شي
+# rtl = yes
+1	ما	زه	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	خپل	خپل	DET	_	Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	5	det:poss	_	_
+3	دا	دا	PRON	_	Deixis=Prox|Number=Sing|PronType=Dem	4	det	_	_
+4	شاهکار	شاهکار	NOUN	_	Number=Sing	5	amod	_	_
+5	رسم	رسم	NOUN	_	Number=Sing	8	obj	_	_
+6	مشرانو	مشر	NOUN	_	Number=Plur	8	iobj	_	_
+7	ته	ته	ADP	_	_	6	case	_	_
+8	وښودلو	ښودل	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+9	،	,	PUNCT	_	_	8	punct	_	_
+10	او	او	CCONJ	_	_	8	discourse	_	_
+11	ترې	هغه	PRON	_	Number=Sing|Person=3|PronType=Prs	14	obl	_	_
+12	مې	زه	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	تپوس	تپوس	NOUN	_	Number=Sing	14	obj	_	_
+14	وکړو	کول	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	conj	_	_
+15	چې	چې	SCONJ	_	_	14	ccomp	_	_
+16	آیا	آیا	ADV	_	_	15	discourse	_	_
+17	دا	دا	PRON	_	Deixis=Prox|Number=Sing|PronType=Dem	18	det	_	_
+18	تصویرخلک	تصویرخلک	NOUN	_	Number=Sing	19	nsubj	_	_
+19	ويرولۍ	وېرول	NOUN	_	Number=Sing	15	xcomp	_	_
+20	شي	کېدل	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	mark	_	_
+
+# sent_id = petitprince-11
+# text = خو هغوې حيرانتيا سره اوویل : "ویره د څه نه ؟ دا خو د يو ټوپئ تصوير دې.
+# rtl = yes
+1	خو	خو	CCONJ	_	_	5	mark	_	_
+2	هغوې	هغه	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+3	حيرانتيا	_	NOUN	_	Number=Sing	5	obl	_	_
+4	سره	_	ADP	_	_	3	case	_	_
+5	اوویل	ویل	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	:	:	PUNCT	_	_	5	punct	_	_
+7	"ویره	_	NOUN	_	Number=Sing	5	parataxis	_	_
+8	د	_	ADP	_	_	7	case	_	_
+9	څه	_	PRON	_	Number=Sing|PronType=Int	7	nmod	_	_
+10	نه	_	PART	_	_	9	case	_	_
+11	؟	؟	PUNCT	_	_	7	punct	_	_
+12	دا	_	PRON	_	Deixis=Prox|Number=Sing|PronType=Dem	17	nsubj	_	_
+13	خو	_	CCONJ	_	_	17	discourse	_	_
+14	د	د	ADP	_	_	16	case	_	_
+15	يو	_	DET	_	PronType=Ind	16	det	_	_
+16	ټوپئ	_	NOUN	_	Number=Sing	17	nmod	_	_
+17	تصوير	_	NOUN	_	Number=Sing	5	parataxis	_	_
+18	دې.	ول	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+
+# sent_id = petitprince-36
+# text = نو ما به خپله ژونده یواځې تېرولو ، داسې څوک نه وو چې زه ورسره خبرې کولای شم تر څو چې شپږ کاله وړاندې زما الوتکه د صحرا په منځ کښې خراب شو .
+# rtl = yes
+1	نو	نو	ADV	_	_	7	discourse	_	_
+2	ما	زه	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+3	به	بۀ	AUX	_	Mood=Ind|VerbForm=Fin	7	aux	_	_
+4	خپله	خپل	DET	_	Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	5	det:poss	_	_
+5	ژونده	ژونده	NOUN	_	Number=Sing	7	obj	_	_
+6	یواځې	یوازې	ADV	_	_	7	advmod	_	_
+7	تېرولو	تېرول	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+8	،	,	PUNCT	_	_	7	punct	_	_
+9	داسې	داسې	DET	_	PronType=Dem	10	det	_	_
+10	څوک	څوک	PRON	_	Number=Sing|PronType=Int	12	nsubj	_	_
+11	نه	نه	PART	_	Polarity=Neg	12	advmod	_	_
+12	وو	ول	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	_
+13	چې	چې	SCONJ	_	_	18	mark	_	_
+14	زه	زه	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+15	ورسره	هغه	ADP	_	_	17	obl:arg	_	_
+16	خبرې	خبره	NOUN	_	Number=Plur	17	obj	_	_
+17	کولای	کول	VERB	_	VerbForm=Inf	18	xcomp	_	_
+18	شم	کېدل	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	acl	_	_
+19	تر	تر	SCONJ	_	ExtPos=SCONJ	33	mark	_	_
+20	څو	څو	DET	_	PronType=Rel	19	fixed	_	_
+21	چې	چې	SCONJ	_	_	19	fixed	_	_
+22	شپږ	شپږ	NUM	_	NumType=Card	23	nummod	_	_
+23	کاله	کال	NOUN	_	Number=Plur	33	obl	_	_
+24	وړاندې	وړاندې	ADV	_	_	23	advmod	_	_
+25	زما	زه	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	الوتکه	الوتکه	NOUN	_	Number=Sing	33	nsubj	_	_
+27	د	د	ADP	_	_	28	case	_	_
+28	صحرا	صحرا	NOUN	_	Number=Sing	30	nmod	_	_
+29	په	په	ADP	_	_	30	case	_	_
+30	منځ	منځ	NOUN	_	Number=Sing	33	obl	_	_
+31	کښې	کښې	ADP	_	_	30	case	_	_
+32	خراب	خراب	ADJ	_	_	33	xcomp	_	_
+33	شو	کېدل	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	_
+34	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = coercive_discourse-1
+# text = ۔پښتون مشرتابه خاموش دی .
+# rtl = yes
+1	۔پښتون	پښتون	ADJ	_	_	2	nmod	_	_
+2	مشرتابه	مشرتابه	NOUN	_	Number=Sing	3	nsubj	_	_
+3	خاموش	خاموش	ADJ	_	_	0	root	_	_
+4	دی	ول	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = coercive_discourse-2
+# text = د تېرو زمانو په لویو سیاسي بحرانون و و سختو پوځي او و لسي ډکټېټرانو کې د پښتنو قیادت د ټول پاکستان د مرکزي اپوزیسیون د مشرۍ رول لوبولی دی .
+# rtl = yes
+1	د	د	ADP	_	_	3	case	_	_
+2	تېرو	تېر	ADJ	_	_	3	amod	_	_
+3	زمانو	زمان	NOUN	_	Number=Plur	7	nmod	_	_
+4	په	په	ADP	_	_	7	case	_	_
+5	لویو	لوی	ADJ	_	_	7	amod	_	_
+6	سیاسي	بحران	ADJ	_	_	7	amod	_	_
+7	بحرانون	بحرانون	NOUN	_	Number=Plur	16	nmod	_	_
+8	و	و	ADP	_	_	7	conj	_	_
+9	و	و	CCONJ	_	_	10	cc	_	_
+10	سختو	سخت	ADJ	_	_	15	amod	_	_
+11	پوځي	پوځي	ADJ	_	_	15	amod	_	_
+12	او	او	CCONJ	_	_	11	cc	_	_
+13	و	و	ADP	_	_	11	conj	_	_
+14	لسي	لسي	ADJ	_	_	15	amod	_	_
+15	ډکټېټرانو	ډکټېټر	NOUN	_	Number=Plur	16	nmod	_	_
+16	کې	کې	ADP	_	_	29	obl	_	_
+17	د	د	ADP	_	_	15	case	_	_
+18	پښتنو	پښتن	NOUN	_	Number=Plur	19	nmod	_	_
+19	قیادت	قیادت	NOUN	_	Number=Sing	29	nsubj	_	_
+20	د	د	ADP	_	_	22	case	_	_
+21	ټول	ټول	DET	_	PronType=Tot	22	amod	_	_
+22	پاکستان	پاکستان	PROPN	_	_	25	nmod	_	_
+23	د	د	ADP	_	_	25	case	_	_
+24	مرکزي	مرکزي	ADJ	_	_	25	amod	_	_
+25	اپوزیسیون	اپوزیسیون	NOUN	_	Number=Sing	27	nmod	_	_
+26	د	د	ADP	_	_	27	case	_	_
+27	مشرۍ	مشرۍ	NOUN	_	Number=Sing	28	nmod	_	_
+28	رول	رول	NOUN	_	Number=Sing	29	obj	_	_
+29	لوبولی	لوبول	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
+30	دی	ول	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+31	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = coercive_discourse-3
+# text = دا هم یو حقیقت دی چې د پښتنو مشرتابه نه لوی و زوره ورو حکمرانانو نه ړق دی وهلی او نه یې ترې په ارامه خوب کړی دی .
+# rtl = yes
+1	دا	دا	PRON	_	Deixis=Prox|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	هم	هم	PART	_	_	4	advmod	_	_
+3	یو	یو	DET	_	PronType=Ind	4	det	_	_
+4	حقیقت	حقیقت	NOUN	_	Number=Sing	0	root	_	_
+5	دی	ول	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+6	چې	چې	SCONJ	_	_	19	mark	_	_
+7	د	د	ADP	_	_	8	case	_	_
+8	پښتنو	پښتن	NOUN	_	Number=Plur	9	nmod	_	_
+9	مشرتابه	مشرتابه	NOUN	_	Number=Sing	19	nsubj	_	_
+10	نه	نه	PART	_	Polarity=Neg	19	advmod	_	_
+11	لوی	لوی	ADJ	_	_	15	amod	_	_
+12	و	و	ADP	_	_	14	cc	_	_
+13	زوره	زور	NOUN	_	Number=Sing	14	compound	_	_
+14	ورو	ورو	ADJ	_	_	11	conj	_	_
+15	حکمرانانو	حکمران	NOUN	_	Number=Plur	19	obl:agent	_	_
+16	نه	نه	PART	_	_	15	case	_	_
+17	ړق	ړق	ADV	_	_	19	obj	_	_
+18	دی	ول	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	وهلی	وهل	VERB	_	Aspect=Perf|VerbForm=Part	4	ccomp	_	_
+20	او	او	CCONJ	_	_	27	cc	_	_
+21	نه	نه	PART	_	Polarity=Neg	27	advmod	_	_
+22	یې	دی	PRON	_	Number=Sing|Person=3|PronType=Prs	27	expl	_	_
+23	ترې	تر	ADP	_	_	27	obl	_	_
+24	په	په	ADP	_	_	25	case	_	_
+25	ارامه	ارام	ADJ	_	_	27	obl	_	_
+26	خوب	خوب	NOUN	_	Number=Sing	27	obj	_	_
+27	کړی	کول	VERB	_	Aspect=Perf|VerbForm=Part	19	conj	_	_
+28	دی	ول	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+29	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = coercive_discourse-4
+# text = دا به هم څوک نه هېرولای شي چې زما مشرتابه د مزاحمتي سیاست بنیاد ایښی او په هېڅ مصلحت یې مزاحمت نه دی مات کړی .
+# rtl = yes
+1	دا	دا	PRON	_	Deixis=Prox|Number=Sing|PronType=Dem	6	obj	_	_
+2	به	بۀ	PART	_	_	6	advmod	_	_
+3	هم	هم	PART	_	_	6	advmod	_	_
+4	څوک	څوک	PRON	_	Number=Sing|PronType=Int	6	nsubj	_	_
+5	نه	نه	PART	_	Polarity=Neg	6	advmod	_	_
+6	هېرولای	هېرول	VERB	_	VerbForm=Inf	0	root	_	_
+7	شي	کېدل	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+8	چې	چې	SCONJ	_	_	15	mark	_	_
+9	زما	زه	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod	_	_
+10	مشرتابه	مشرتابه	NOUN	_	Number=Sing	15	nsubj	_	_
+11	د	د	ADP	_	_	13	case	_	_
+12	مزاحمتي	مزاحمتي	ADJ	_	_	13	amod	_	_
+13	سیاست	سیاست	NOUN	_	Number=Sing	15	nmod	_	_
+14	بنیاد	بنیاد	NOUN	_	Number=Sing	15	obj	_	_
+15	ایښی	ایښودل	VERB	_	Aspect=Perf|VerbForm=Part	6	ccomp	_	_
+16	او	او	CCONJ	_	_	25	cc	_	_
+17	په	په	ADP	_	_	19	case	_	_
+18	هېڅ	هېڅ	DET	_	PronType=Neg	19	det	_	_
+19	مصلحت	مصلحت	NOUN	_	Number=Sing	25	obl	_	_
+20	یې	یې	PRON	_	Number=Sing|Person=3|PronType=Prs	25	expl	_	_
+21	مزاحمت	مزاحمت	NOUN	_	Number=Sing	25	obj	_	_
+22	نه	نه	PART	_	Polarity=Neg	25	advmod	_	_
+23	دی	ول	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+24	مات	مات	ADJ	_	_	25	xcomp	_	_
+25	کړی	کول	VERB	_	Aspect=Perf|VerbForm=Part	15	conj	_	_
+26	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = coercive_discourse-5
+# text = دا هم ټولو ته په یاد دي چې د هغوی سیاسي کمټمنټ نه د مېز له پاسه بایلل شوی او نه له مېز لاندې .
+# rtl = yes
+1	دا	دا	PRON	_	Deixis=Prox|Number=Sing|PronType=Dem	6	nsubj	_	_
+2	هم	هم	PART	_	_	6	advmod	_	_
+3	ټولو	ټول	PRON	_	Number=Plur|PronType=Tot	6	obl	_	_
+4	ته	ته	ADP	_	_	3	case	_	_
+5	په	په	ADP	_	_	6	case	_	_
+6	یاد	یاد	NOUN	_	Number=Sing	0	root	_	_
+7	دي	ول	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+8	چې	چې	SCONJ	_	_	18	mark	_	_
+9	د	د	ADP	_	_	10	case	_	_
+10	هغوی	هغوی	PRON	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
+11	سیاسي	سیاسي	ADJ	_	_	12	amod	_	_
+12	کمټمنټ	کمټمنټ	NOUN	_	Number=Sing	18	nsubj:pass	_	_
+13	نه	نه	PART	_	Polarity=Neg	18	advmod	_	_
+14	د	د	ADP	_	_	15	case	_	_
+15	مېز	مېز	NOUN	_	Number=Sing	18	nmod	_	_
+16	له	له	ADP	_	_	17	case	_	_
+17	پاسه	پاسه	ADV	_	_	18	obl	_	_
+18	بایلل	بایلل	VERB	_	VerbForm=Inf	6	ccomp	_	_
+19	شوی	کېدل	AUX	_	Aspect=Perf|VerbForm=Part	18	aux:pass	_	_
+20	او	او	CCONJ	_	_	18	cc	_	_
+21	نه	نه	PART	_	Polarity=Neg	24	advmod	_	_
+22	له	له	ADP	_	_	24	case	_	_
+23	مېز	مېز	NOUN	_	Number=Sing	24	nmod	_	_
+24	لاندې	لاندې	ADV	_	_	18	conj	_	_
+25	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = coercive_discourse-6
+# text = نن چې مو د سیاسي ماضي د ټپ شوي کتاب پاڼې په حال کې را اړوو نو داسې محسوسوو لکه دا کتاب او دا پانیہ دئاوارا زامئنگ نه وي .
+# rtl = yes
+1	نن	نن	ADV	_	_	19	advmod	_	_
+2	چې	چې	SCONJ	_	_	16	mark	_	_
+3	مو	زه	PRON	_	Number=Plur|Person=1|PronType=Prs	16	expl	_	_
+4	د	د	ADP	_	_	6	case	_	_
+5	سیاسي	سیاسي	ADJ	_	_	6	amod	_	_
+6	ماضي	ماضي	NOUN	_	Number=Sing	10	nmod	_	_
+7	د	د	ADP	_	_	10	case	_	_
+8	ټپ	ټپ	NOUN	_	Number=Sing	10	amod	_	_
+9	شوي	کېدل	VERB	_	VerbForm=Part	10	amod	_	_
+10	کتاب	کتاب	NOUN	_	Number=Sing	11	nmod	_	_
+11	پاڼې	پاڼه	NOUN	_	Number=Plur	16	obj	_	_
+12	په	په	ADP	_	_	13	case	_	_
+13	حال	حال	NOUN	_	Number=Sing	16	obl	_	_
+14	کې	کې	ADP	_	_	13	case	_	_
+15	را	را	PART	_	_	16	compound:prt	_	_
+16	اړوو	اړول	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+17	نو	نو	PART	_	_	19	advmod	_	_
+18	داسې	داسې	ADV	_	_	19	advmod	_	_
+19	محسوسوو	محسوسول	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	لکه	لکه	SCONJ	_	_	29	mark	_	_
+21	دا	دا	PRON	_	Deixis=Prox|Number=Sing|PronType=Dem	22	det	_	_
+22	کتاب	کتاب	NOUN	_	Number=Sing	29	nsubj	_	_
+23	او	او	CCONJ	_	_	25	cc	_	_
+24	دا	دا	PRON	_	Deixis=Prox|Number=Sing|PronType=Dem	25	det	_	_
+25	پانیہ	پانیہ	NOUN	_	Number=Sing	22	conj	_	_
+26	دئاوارا	دئاوارا	ADP	_	_	27	case	_	_
+27	زامئنگ	زامئنگ	NOUN	_	Number=Sing	29	obl	_	_
+28	نه	نه	PART	_	Polarity=Neg	29	advmod	_	_
+29	وي	ول	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+30	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = coercive_discourse-7
+# text = یا داسې ښکاري چې مو د داگھہ لفظونو مانا او اصطلاحات هېڅ نه یو پاتې .
+# rtl = yes
+1	یا	یا	PART	_	_	3	cc	_	_
+2	داسې	داسې	ADV	_	_	3	advmod	_	_
+3	ښکاري	ښکارېدل	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	چې	چې	SCONJ	_	_	15	mark	_	_
+5	مو	زه	PRON	_	Number=Plur|Person=1|PronType=Prs	15	expl	_	_
+6	د	د	ADP	_	_	8	case	_	_
+7	داگھہ	داگھہ	DET	_	Deixis=Prox|Number=Sing|PronType=Dem	8	det	_	_
+8	لفظونو	لفظ	NOUN	_	Number=Plur	9	nmod	_	_
+9	مانا	مانا	NOUN	_	Number=Sing	15	nsubj	_	_
+10	او	او	CCONJ	_	_	11	cc	_	_
+11	اصطلاحات	اصطلاح	NOUN	_	Number=Plur	9	conj	_	_
+12	هېڅ	هېڅ	DET	_	PronType=Neg	15	advmod	_	_
+13	نه	نه	PART	_	Polarity=Neg	15	advmod	_	_
+14	یو	کېدل	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	پاتې	پاتې	ADJ	_	_	3	ccomp	_	_
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = coercive_discourse-8
+# text = ھار کله چې یو قوم د داگھہ تحریکونو او لفظونو نه بېګانه شي ، د هغه قوم سیاسي ماضي ختمېږي .
+# rtl = yes
+1	ھار	هر	ADV	_	_	2	advmod	_	_
+2	کله	کله	ADV	_	_	13	advmod	_	_
+3	چې	چې	SCONJ	_	_	13	mark	_	_
+4	یو	یو	DET	_	PronType=Ind	5	det	_	_
+5	قوم	قوم	NOUN	_	Number=Sing	13	nsubj	_	_
+6	د	د	ADP	_	_	8	case	_	_
+7	داگھہ	داگھہ	DET	_	Deixis=Prox|Number=Sing|PronType=Dem	8	det	_	_
+8	تحریکونو	تحریک	NOUN	_	Number=Plur	12	obl	_	_
+9	او	او	CCONJ	_	_	10	cc	_	_
+10	لفظونو	لفظ	NOUN	_	Number=Plur	8	conj	_	_
+11	نه	نه	PART	_	_	8	case	_	_
+12	بېګانه	بېګانه	ADJ	_	_	13	xcomp	_	_
+13	شي	کېدل	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+14	،	,	PUNCT	_	_	20	punct	_	_
+15	د	د	ADP	_	_	17	case	_	_
+16	هغه	هغه	PRON	_	Deixis=Remt|Number=Sing|PronType=Dem	17	det	_	_
+17	قوم	قوم	NOUN	_	Number=Sing	19	nmod	_	_
+18	سیاسي	سیاسي	ADJ	_	_	19	amod	_	_
+19	ماضي	ماضي	NOUN	_	Number=Sing	20	nsubj	_	_
+20	ختمېږي	ختمېدل	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = coercive_discourse-9
+# text = قوم چې سیاسي ماضي نه لري ، د هغه حال مشکوک او مئستاقبیل ورک او فنا وي .
+# rtl = yes
+1	قوم	قوم	NOUN	_	Number=Sing	10	nsubj	_	_
+2	چې	چې	SCONJ	_	_	6	mark	_	_
+3	سیاسي	سیاسي	ADJ	_	_	4	amod	_	_
+4	ماضي	ماضي	NOUN	_	Number=Sing	6	obj	_	_
+5	نه	نه	PART	_	Polarity=Neg	6	advmod	_	_
+6	لري	لرل	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl	_	_
+7	،	,	PUNCT	_	_	10	punct	_	_
+8	د	د	ADP	_	_	10	case	_	_
+9	هغه	هغه	PRON	_	Deixis=Remt|Number=Sing|PronType=Dem	10	det	_	_
+10	حال	حال	NOUN	_	Number=Sing	0	root	_	_
+11	مشکوک	مشکوک	ADJ	_	_	10	amod	_	_
+12	او	او	CCONJ	_	_	14	cc	_	_
+13	مئستاقبیل	مئستاقبیل	NOUN	_	Number=Sing	14	nmod	_	_
+14	ورک	ورک	ADJ	_	_	11	conj	_	_
+15	او	او	CCONJ	_	_	16	cc	_	_
+16	فنا	فنا	ADJ	_	_	14	conj	_	_
+17	وي	ول	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+18	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = coercive_discourse-10
+# text = مو دا وخت په یو مشکوک او پراسراره حال کې ژوند کوو او مستقبل مو تورتم سُرنګ دی .
+# rtl = yes
+1	مو	زه	PRON	_	Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+2	دا	دا	DET	_	Deixis=Prox|Number=Sing|PronType=Dem	3	det	_	_
+3	وخت	وخت	NOUN	_	Number=Sing	12	obl	_	_
+4	په	په	ADP	_	_	9	case	_	_
+5	یو	یو	DET	_	PronType=Ind	9	det	_	_
+6	مشکوک	مشکوک	ADJ	_	_	9	amod	_	_
+7	او	او	CCONJ	_	_	8	cc	_	_
+8	پراسراره	پراسراره	ADJ	_	_	6	conj	_	_
+9	حال	حال	NOUN	_	Number=Sing	12	obl	_	_
+10	کې	کې	ADP	_	_	9	case	_	_
+11	ژوند	ژوند	NOUN	_	Number=Sing	12	obj	_	_
+12	کوو	کول	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	او	او	CCONJ	_	_	17	cc	_	_
+14	مستقبل	مستقبل	NOUN	_	Number=Sing	17	nsubj	_	_
+15	مو	زه	PRON	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	_
+16	تورتم	تورتم	NOUN	_	Number=Sing	17	amod	_	_
+17	سُرنګ	سُرنګ	NOUN	_	Number=Sing	12	conj	_	_
+18	دی	ول	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+19	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = coercive_discourse-12
+# text = ولسونه له خپلو کورونو او علاقو راپاڅول کېږي او په خپله خاوره د پناه ګزیانو نوم پرې ایښودل کېږي .
+# rtl = yes
+1	ولسونه	ولس	NOUN	_	Number=Plur	7	nsubj:pass	_	_
+2	له	له	ADP	_	_	4	case	_	_
+3	خپلو	خپل	DET	_	Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	4	det:poss	_	_
+4	کورونو	کور	NOUN	_	Number=Plur	7	obl	_	_
+5	او	او	CCONJ	_	_	6	cc	_	_
+6	علاقو	علاقو	NOUN	_	Number=Plur	4	conj	_	_
+7	راپاڅول	راپاڅول	VERB	_	VerbForm=Inf	0	root	_	_
+8	کېږي	کېدل	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+9	او	او	CCONJ	_	_	18	cc	_	_
+10	په	په	ADP	_	_	12	case	_	_
+11	خپله	خپل	DET	_	Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	12	det:poss	_	_
+12	خاوره	خاوره	NOUN	_	Number=Sing	18	obl	_	_
+13	د	د	ADP	_	_	15	case	_	_
+14	پناه	پناه	NOUN	_	Number=Sing	15	compound	_	_
+15	ګزیانو	ګزیان	NOUN	_	Number=Plur	16	nmod	_	_
+16	نوم	نوم	NOUN	_	Number=Sing	18	obj	_	_
+17	پرې	پر	ADP	_	_	18	compound:prt	_	_
+18	ایښودل	ایښودل	VERB	_	VerbForm=Inf	7	conj	_	_
+19	کېږي	کېدل	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+20	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = coercive_discourse-13
+# text = د ننګ او ناموس خلک په کتارونو کې د مرستې لپاره درېږي او د مذهبي ښوونکو له خوا د صبرِ جمیل او د حکمرانانو له خوا د اتحاد ، تنظیم او یقینِ محکم تلقین ورباندې کېږي .
+# rtl = yes
+1	د	د	ADP	_	_	2	case	_	_
+2	ننګ	ننګ	NOUN	_	Number=Sing	5	nmod	_	_
+3	او	او	CCONJ	_	_	4	cc	_	_
+4	ناموس	ناموس	NOUN	_	Number=Sing	2	conj	_	_
+5	خلک	خلک	NOUN	_	Number=Plur	12	nsubj	_	_
+6	په	په	ADP	_	_	7	case	_	_
+7	کتارونو	کتار	NOUN	_	Number=Plur	12	obl	_	_
+8	کې	کې	ADP	_	_	7	case	_	_
+9	د	د	ADP	_	_	10	case	_	_
+10	مرستې	مرسته	NOUN	_	Number=Sing	12	obl	_	_
+11	لپاره	لپاره	ADP	_	_	10	case	_	_
+12	درېږي	درېدل	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	او	او	CCONJ	_	_	36	cc	_	_
+14	د	د	ADP	_	_	16	case	_	_
+15	مذهبي	مذهبي	ADJ	_	_	16	amod	_	_
+16	ښوونکو	ښوونکی	NOUN	_	Number=Plur	36	obl:agent	_	_
+17	له	له	ADP	_	ExtPos=ADP	16	case	_	_
+18	خوا	خوا	ADP	_	_	17	fixed	_	_
+19	د	د	ADP	_	_	20	case	_	_
+20	صبرِ	صبرِ	NOUN	_	Number=Sing	34	nmod	_	_
+21	جمیل	جمیل	ADJ	_	_	20	amod	_	_
+22	او	او	CCONJ	_	_	24	cc	_	_
+23	د	د	ADP	_	_	24	case	_	_
+24	حکمرانانو	حکمران	NOUN	_	Number=Plur	16	conj	_	_
+25	له	له	ADP	_	ExtPos=ADP	24	case	_	_
+26	خوا	خوا	ADP	_	_	25	fixed	_	_
+27	د	د	ADP	_	_	28	case	_	_
+28	اتحاد	اتحاد	NOUN	_	Number=Sing	34	nmod	_	_
+29	،	,	PUNCT	_	_	28	punct	_	_
+30	تنظیم	تنظیم	NOUN	_	Number=Sing	28	conj	_	_
+31	او	او	CCONJ	_	_	32	cc	_	_
+32	یقینِ	یقینِ	NOUN	_	Number=Sing	28	conj	_	_
+33	محکم	محکم	ADJ	_	_	32	amod	_	_
+34	تلقین	تلقین	NOUN	_	Number=Sing	36	nsubj:pass	_	_
+35	ورباندې	ورباندې	PRON	_	Number=Sing|Person=3|PronType=Prs	36	obl	_	_
+36	کېږي	کېدل	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+37	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = coercive_discourse-14
+# text = په ټوله پښتونخوا کې د پاکستان د غلطو سیاستونو اور بل دی او ټول پښتانه په خپله خاوره د پناه ګزیانو په سھاکال پراته دي .
+# rtl = yes
+1	په	په	ADP	_	_	3	case	_	_
+2	ټوله	ټول	ADJ	_	_	3	amod	_	_
+3	پښتونخوا	پښتونخوا	PROPN	_	_	11	obl	_	_
+4	کې	کې	ADP	_	_	3	case	_	_
+5	د	د	ADP	_	_	6	case	_	_
+6	پاکستان	پاکستان	PROPN	_	_	9	nmod	_	_
+7	د	د	ADP	_	_	9	case	_	_
+8	غلطو	غلط	ADJ	_	_	9	amod	_	_
+9	سیاستونو	سیاست	NOUN	_	Number=Plur	10	nmod	_	_
+10	اور	اور	NOUN	_	Number=Sing	11	nsubj	_	_
+11	بل	بل	ADJ	_	_	0	root	_	_
+12	دی	ول	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+13	او	او	CCONJ	_	_	24	cc	_	_
+14	ټول	ټول	ADJ	_	_	11	amod	_	_
+15	پښتانه	پښتون	NOUN	_	Number=Plur	24	nsubj	_	_
+16	په	په	ADP	_	_	18	case	_	_
+17	خپله	خپل	DET	_	Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	18	det:poss	_	_
+18	خاوره	خاوره	NOUN	_	Number=Sing	24	obl	_	_
+19	د	د	ADP	_	_	21	case	_	_
+20	پناه	پناه	NOUN	_	Number=Sing	21	compound	_	_
+21	ګزیانو	ګزی	NOUN	_	Number=Plur	23	nmod	_	_
+22	په	په	ADP	_	_	23	case	_	_
+23	سھاکال	سھاکال	NOUN	_	Number=Sing	24	obl	_	_
+24	پراته	پروت	ADJ	_	_	11	conj	_	_
+25	دي	ول	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+26	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = coercive_discourse-15
+# text = سیاسي مشران ، ادارې او تنظیمونه یوازې د امدادي سامانونو سره راځي ، عکسونه اخلي او په میډیا یې وارکعع او بس .
+# rtl = yes
+1	سیاسي	سیاسي	ADJ	_	_	2	amod	_	_
+2	مشران	مشر	NOUN	_	Number=Plur	12	nsubj	_	_
+3	،	,	PUNCT	_	_	4	punct	_	_
+4	ادارې	اداره	NOUN	_	Number=Plur	2	conj	_	_
+5	او	او	CCONJ	_	_	6	cc	_	_
+6	تنظیمونه	تنظیم	NOUN	_	Number=Plur	2	conj	_	_
+7	یوازې	یوازې	ADV	_	_	12	advmod	_	_
+8	د	د	ADP	_	_	10	case	_	_
+9	امدادي	امدادي	ADJ	_	_	10	amod	_	_
+10	سامانونو	سامان	NOUN	_	Number=Plur	12	obl	_	_
+11	سره	سره	ADV	_	_	10	case	_	_
+12	راځي	راتلل	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	،	,	PUNCT	_	_	12	punct	_	_
+14	عکسونه	عکس	NOUN	_	Number=Plur	15	obj	_	_
+15	اخلي	اخستل	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+16	او	او	CCONJ	_	_	20	cc	_	_
+17	په	په	ADP	_	_	18	case	_	_
+18	میډیا	میډیا	NOUN	_	Number=Sing	20	obl	_	_
+19	یې	یې	PRON	_	Number=Sing|Person=3|PronType=Prs	20	expl	_	_
+20	وارکعع	وارکعع	NOUN	_	Number=Sing	12	conj	_	_
+21	او	او	CCONJ	_	_	22	cc	_	_
+22	بس	بس	PART	_	_	12	discourse	_	_
+23	.	.	PUNCT	_	_	12	punct	_	_
+
