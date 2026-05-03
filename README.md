@@ -40,13 +40,13 @@ Data available since: UD v2.18
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: nonfiction news
-Lemmas: converted from manual
-UPOS: converted from manual
-XPOS: manual native
-Features: converted from manual
-Relations: converted from manual
-Contributors: Ojha, Atul Kr.
-Contributing: elsewhere
+Lemmas: manual
+UPOS: manual
+XPOS: not available
+Features: manual
+Relations: manual
+Contributors: Aziz, Salwan; Talamo, Luigi; Verkerk, Annemarie
+Contributing: here
 Contact: shashwatup9k@gmail.com
 ===============================================================================
 </pre>
