@@ -39,14 +39,15 @@ https://universaldependencies.org
 Data available since: UD v2.18
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: nonfiction news
-Lemmas: manual
-UPOS: manual
+Parallel: no
+Genre: fiction government
+Lemmas: manual native
+UPOS: manual native
 XPOS: not available
-Features: manual
-Relations: manual
+Features: manual native
+Relations: manual native
 Contributors: Aziz, Salwan; Talamo, Luigi; Verkerk, Annemarie
 Contributing: here
-Contact: shashwatup9k@gmail.com
+Contact: annemarie.verkerk@uni-saarland.de
 ===============================================================================
 </pre>
