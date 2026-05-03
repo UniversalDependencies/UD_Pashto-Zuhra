@@ -30,13 +30,13 @@ https://universaldependencies.org
 
 # Changelog
 
-* 2020-05-15 v2.6
+* 2020-05-15 v2.18
   * Initial release in Universal Dependencies.
 
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.6
+Data available since: UD v2.18
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: nonfiction news
