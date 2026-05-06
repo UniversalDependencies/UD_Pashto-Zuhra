@@ -1,0 +1,57 @@
+Running the following version of UD tools:
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue May 5 17:01:41 2026 +0200
+Evaluating the following revision of UD_Pashto-Prince:
+commit 754fe5bc77fb81fbab02043978320eab9361f538
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Wed May 6 09:44:29 2026 +0200
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'ps_prince'
+Language code (from CoNLL-U file name) = 'ps'
+Found the following data files: ps_prince-ud-test.conllu
+Size: counted 1180 of 1180 words (nodes).
+Size: min(0, log((N/1000)**2)) = 0.331028876955147.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Did not find at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 14 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 523 out of 1180 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 27 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Genres: found 2 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang ps --max-err=10 UD_Pashto-Prince/ps_prince-ud-test.conllu
+[Line 127 Sent petitprince_5]: [L3 WARNING fixed-without-extpos] Fixed expression 'تر څو چي' does not have the 'ExtPos' feature
+[Line 187 Sent petitprince_9]: [L3 WARNING fixed-without-extpos] Fixed expression 'بس هوم سه' does not have the 'ExtPos' feature
+[Line 312 Sent petitprince_14]: [L3 WARNING verbform-fin-without-mood] Finite verb 'اوګوري' lacks the 'Mood' feature
+[Line 368 Sent petitprince_17]: [L3 WARNING fixed-without-extpos] Fixed expression 'او يا' does not have the 'ExtPos' feature
+[Line 490 Sent petitprince_22]: [L3 WARNING verbform-fin-without-mood] Finite verb 'کړې' lacks the 'Mood' feature
+[Line 491 Sent petitprince_22]: [L3 WARNING verbform-fin-without-mood] Finite verb 'دي' lacks the 'Mood' feature
+[Line 504 Sent petitprince_22]: [L3 WARNING verbform-fin-without-mood] Finite verb 'شوه' lacks the 'Mood' feature
+[Line 549 Sent petitprince_24]: [L3 WARNING verbform-fin-without-mood] Finite verb 'ده' lacks the 'Mood' feature
+[Line 785 Sent petitprince_35]: [L3 WARNING fixed-without-extpos] Fixed expression 'تر څو چې' does not have the 'ExtPos' feature
+[Line 891 Sent petitprince_40]: [L3 WARNING verbform-fin-without-mood] Finite verb 'وم' lacks the 'Mood' feature
+[Line 907 Sent petitprince_41]: [L3 WARNING pron-det-without-prontype] The word 'تاسو' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 917 Sent petitprince_41]: [L3 WARNING pron-det-without-prontype] The word 'ما' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 919 Sent petitprince_41]: [L3 WARNING pron-det-without-prontype] The word 'يو' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 942 Sent petitprince_42]: [L3 WARNING pron-det-without-prontype] The word 'ماته' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 1353 Sent coercive_discourse_12]: [L3 WARNING fixed-without-extpos] Fixed expression 'له خوا' does not have the 'ExtPos' feature
+[Line 1361 Sent coercive_discourse_12]: [L3 WARNING fixed-without-extpos] Fixed expression 'له خوا' does not have the 'ExtPos' feature
+Warnings: 17
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=0.5) = 0.0555555555555556
+(weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.0239606691020418) = 0.00887432188964511
+(weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
+(weight=0.111111111111111) * (score{tags}=0.823529411764706) = 0.0915032679738562
+(weight=0.111111111111111) * (score{udeprels}=0.72972972972973) = 0.0810810810810811
+(TOTAL score=0.361211757364335) * (availability=1) * (validity=1) = 0.361211757364335
+STARS = 2
+UD_Pashto-Prince	0.361211757364335	2
